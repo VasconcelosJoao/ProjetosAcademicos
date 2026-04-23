@@ -1,0 +1,91 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #000000;
+  --md-accent-fg-color: #46ad44;
+  --md-typeset-a-color: #2864ae;
+}
+
+.md-tabs__link {
+  color: var(--md-typeset-a-color);
+  font-size: .8rem;
+  margin-top: 0rem;
+}
+
+.md-header__title {
+  display: none;
+}
+
+.md-tabs__item--active {
+  color: var(--md-typeset-a-color);
+  font-size: .8rem;
+  margin-top: 0rem;  
+}
+
+
+.md-tabs__item:hover{
+  color: var(--md-typeset-fg-color);
+}
+
+[dir=ltr] .md-tabs__list {
+  margin-left: 0rem;
+}
+
+.md-tabs__item {
+  height: 1.2rem;
+  padding-left: .6rem;
+  padding-right: .6rem;
+}
+
+.md-footer {
+  background-color: #071D41;  
+}
+
+.md-header__topic {
+  display: none;
+}
+
+.md-social__link svg {
+  max-height: 1.3rem;
+}
+
+
+
+.md-header__inner  {
+  max-width: 90%;
+  padding: 0;
+}
+
+.md-grid {
+  max-width: 90%;
+}
+
+.md-tabs {
+  display: flex;
+  color: #46ad44;
+  justify-content: center;
+  box-shadow: 0 0 0.2rem #0000001a, 0 0.2rem 0.4rem #0003;
+  
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: thin; /* Aumenta a largura do scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor de fundo do track */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Cor do handle */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1; /* Cor do handle ao passar o mouse */
+}

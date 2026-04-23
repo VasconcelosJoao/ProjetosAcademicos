@@ -1,0 +1,140 @@
+site_name: MEI
+
+repo_name: '2022.2-MEI'
+repo_url: https://github.com/Requisitos-de-Software/2022.2-MEI
+
+theme:
+  name: material
+  language: pt-BR
+  font:
+    text: Roboto
+  
+  palette: 
+    - scheme: default
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/images/favicon.png
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+
+nav:
+  - Planejamento:
+    - Home: index.md
+    - Aplicativos Analisados: Planejamento/AplicativosAnalisados.md
+    - Aplicativo Escolhido: Planejamento/MEI.md
+    - Metodologias e Processos: Planejamento/Metodologia.md
+    - Ferramentas: Planejamento/Ferramentas.md
+    - Heatmap: Planejamento/Heatmap.md
+    - Roadmap: Planejamento/Roadmap.md
+    - Políticas:
+      - Código de Conduta Para Colaboradores: Politicas/CodigoDeConduta.md
+      - Política de Contribuição: Politicas/PolitcaDeContribuicao.md
+      - Política de Issue: Politicas/PolitcaDeIssue.md
+      - Política de Branch: Politicas/PolitcaDeBranch.md
+      - Política de Commit: Politicas/PolitcaDeCommit.md
+      - Política de Pull Request: Politicas/PolitcaDePR.md
+      - Política de Segurança: Politicas/PolitcaDeSeguranca.md
+    - Cronograma de Elicitação/Priorização: Elicitacao/Cronogramas.md
+    - Termo de consentimento: Elicitacao/ModeloTermoConsentimento.md
+  - Apresentações/Reuniões:
+    - Introdução: Reunioes/index.md
+    - Apresentações:
+      - 1º Ponto de Controle: Reunioes/Apresentacoes/Entrega1.md
+      - 2º Ponto de Controle: Reunioes/Apresentacoes/Entrega2.md
+      - 3º Ponto de Controle: Reunioes/Apresentacoes/Entrega3.md
+      - 4º Ponto de Controle: Reunioes/Apresentacoes/Entrega4.md
+      - 5º Ponto de Controle: Reunioes/Apresentacoes/Entrega5.md
+      - 6º Ponto de Controle: Reunioes/Apresentacoes/Entrega6.md
+      - 7º Ponto de Controle: Reunioes/Apresentacoes/Entrega7.md
+    - Reuniões:
+      - 1ª Reunião: Reunioes/Atas/Reuniao1.md
+      - 2ª Reunião: Reunioes/Atas/Reuniao2.md
+      - 3ª Reunião: Reunioes/Atas/Reuniao3.md
+      - 4ª Reunião: Reunioes/Atas/Reuniao4.md
+      - 5ª Reunião: Reunioes/Atas/Reuniao5.md
+      - 6ª Reunião: Reunioes/Atas/Reuniao6.md
+      - 7ª Reunião: Reunioes/Atas/Reuniao7.md
+  - Elicitação: 
+    - Técnicas de Elicitação: Elicitacao/index.md
+    - Brainstorming: Elicitacao/Brainstorming.md
+    - Entrevista: Elicitacao/Entrevista.md
+    - Introspecção: Elicitacao/Introspeccao.md
+    - Perfil de Usuário: Elicitacao/perfil.md
+    - Persona: Elicitacao/personas.md
+    - Priorização: Elicitacao/tecnicas-priorizacao.md
+  - Modelagem:
+    - Cenários: Modelagem/Cenarios.md
+    - Léxicos: Modelagem/Lexicos.md
+    - Casos de Uso: Modelagem/CasosdeUso.md
+    - Especificação Suplementar: Modelagem/EspecificacaoSuplementar.md
+    - NFR Framework: Modelagem/NFRFramework.md
+    - Modelo Ágil:
+      - Histórias de Usuário: Modelagem/UserCases.md
+      - Backlog: Modelagem/Agil/BacklogDoProduto.md
+  - Análise:
+    - Introdução: Analise/index.md
+    - Identificação De Partes: Analise/IdentificaçãoDePartes.md
+    - Verificação:
+      - Introdução: Analise/Verificacao/index.md
+      - Planejamento:
+        - Rich Picture: Analise/Verificacao/Planejamento/VerificacaoRichPicture.md
+        - Aplicativo Escolhido: Analise/Verificacao/Planejamento/verificacaoAplicativoEscolhido.md
+        - Termo de Consentimento: Analise/Verificacao/Planejamento/verificacaoTermoConsentimento.md
+      - Elicitação: 
+        - Brainstoming: Analise/Verificacao/Elicitacao/VerificaçãoBrainstorming.md
+        - Entrevista: Analise/Verificacao/Elicitacao/VerificacaoEntrevista.md
+        - Introspecção: Analise/Verificacao/Elicitacao/VerificacaoInstropeccao.md
+        - Perfil de Usuário: Analise/Verificacao/Elicitacao/VerificacaoPerfilUsuario.md
+        - Personas: Analise/Verificacao/Elicitacao/VerificacaoPersonas.md
+        - Priorização: Analise/Verificacao/Elicitacao/VerificacaoPriorizacao.md
+      - Modelagem:
+        - Cenários: Analise/Verificacao/Modelagem/VerificacaoCenarios.md
+        - Léxicos: Analise/Verificacao/Modelagem/VerificacaoLexicos.md
+        - Casos de Uso: Analise/Verificacao/Modelagem/verificacaoCasosdeUso.md
+        - Especificação Suplementar: Analise/Verificacao/Modelagem/VerificacaoEspecifacao.md
+        - NFR Framework: Analise/Verificacao/Modelagem/verificacaoNFRFramework.md
+        - Backlog: Analise/Verificacao/Modelagem/verificacaoBacklog.md
+    - Validação: 
+      - Introdução: Analise/Validacao/index.md
+      - Validação Informal: Analise/Validacao/Informal.md
+      - Prototipagem: Analise/Validacao/protAlta.md
+    - Linkedin:
+      - Verificação:
+        - Introdução: Analise/Linkedin/Verificacao/index.md
+        - Rich Picture: Analise/Linkedin/Verificacao/VerificacaoRichPicture.md
+        - Personas: Analise/Linkedin/Verificacao/VerificacaoPersonas.md
+        - Backlog: Analise/Linkedin/Verificacao/VerificacaoBacklog.md
+        - Casos de uso: Analise/Linkedin/Verificacao/VerificaçãoCasosDeUso.md
+        - Cenários: Analise/Linkedin/Verificacao/VerificacaoCenarios.md
+        - NFR: Analise/Linkedin/Verificacao/VerificacaoNFR.md
+        - User Stories: Analise/Linkedin/Verificacao/VerificaçãoUserHistories.md
+        - Especificação Suplementar: Analise/Linkedin/Verificacao/VerificacaoEspecificacaoSuplementar.md
+        - Lexicos: Analise/Linkedin/Verificacao/VerificacaoLexicos.md
+        - Planejamento: Analise/Linkedin/Verificacao/VerificacaoPlanejamento.md
+        - Tecnicas de Elicitação: Analise/Linkedin/Verificacao/VerificacaoTecnicasElicitacao.md
+        - Tecnicas de Priorização: Analise/Linkedin/Verificacao/VerificacaoTecnicasPriorizacao.md
+      - Validação: 
+        - Introdução: Analise/Linkedin/Validacao/index.md
+        - Validação Informal: Analise/Linkedin/Validacao/informal.md
+  - Pós-Rastreabilidade:
+    - index: Pos-Rastreabilidade/index.md
+    - Backward-from: Pos-Rastreabilidade/BackwardFrom.md
+    - Forward-from: Pos-Rastreabilidade/ForwardFrom.md
+    - Matriz Geral: Pos-Rastreabilidade/MatrizGeral.md
+  - Post Mortem: RelatorioFinal/index.md

@@ -1,0 +1,5 @@
+/venv/
+/site/
+__pycache__
+db.sqlite3
+MyGov/venv/

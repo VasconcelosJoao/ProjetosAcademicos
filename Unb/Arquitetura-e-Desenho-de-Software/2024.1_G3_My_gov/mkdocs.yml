@@ -1,0 +1,112 @@
+site_name: MyGov
+
+site_description: Site de documentação do projeto MyGov
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins: []
+
+copyright: Copyright &copy; 2024 Grupo 03
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/UnBArqDsw2024-1/2024.1_G3_My_gov
+      name: Repositório do grupo
+    - icon: material/school
+      link: https://aprender3.unb.br/
+      name: Ambiente Virtual de Aprendizagem
+
+theme:
+  name: material
+  language: pt-BR
+  favicon: Assets/favicon.png
+  logo: Assets/logo.png
+  font: 
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    repo: fontawesome/brands/github
+
+
+  palette: 
+    - scheme: default
+      primary: custom
+      accent: custom
+  
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+
+nav:
+  - Base:
+    - Base/index.md
+    - Design Sprint: 
+      - Base/DesignSprint/index.md
+      - Protótipo: Base/DesignSprint/prototipo.md
+      - Validação do Protótipo: Base/DesignSprint/validacao.md
+    - Técnicas de Elicitação: 
+      - Base/TecnicasElicitacao/index.md
+      - Entrevista: Base/TecnicasElicitacao/Entrevista.md
+      - Questionário: Base/TecnicasElicitacao/Questionario.md
+      - Personas: Base/TecnicasElicitacao/Personas.md
+    - Artefatos Independentes:
+      - Base/ArtefatosIndependentes/index.md
+      - Heat Map: Base/ArtefatosIndependentes/Heatmap.md
+      - Cronograma: Base/ArtefatosIndependentes/Cronograma.md
+      - Mapa Mental: Base/ArtefatosIndependentes/MapaMental.md
+      - Storyboard: Base/ArtefatosIndependentes/Storyboards.md
+    - Metodologia: Base/Metodologia.md
+    - Participações: Base/Participacoes.md
+  - Modelagem:
+    - Modelagem/index.md
+    - Modelagem Estática:
+      - Modelagem/ModelagemEstatica/index.md
+      - Diagrama de Classes: Modelagem/ModelagemEstatica/DiagramaDeClasses.md
+      - Diagrama de Pacotes: Modelagem/ModelagemEstatica/DiagramaDePacotes.md
+      - Diagrama de Implantacao: Modelagem/ModelagemEstatica/DiagramaDeImplantacao.md
+    - Modelagem Dinâmica:
+      - Modelagem/ModelagemDinamica/index.md
+      - Diagrama de Sequencia: Modelagem/ModelagemDinamica/DiagramaDeSequencia.md
+      - Diagrama de Atividades: Modelagem/ModelagemDinamica/DiagramaDeAtividades.md
+      - Diagrama de Estados: Modelagem/ModelagemDinamica/DiagramaDeEstados.md
+    - Participações: Modelagem/Participacoes.md
+  - Padrões de Projeto:
+    - PadroesDeProjeto/index.md
+    - GoF's Criacionais: 
+      - PadroesDeProjeto/GoFsCriacionais/index.md
+      - Factory: PadroesDeProjeto/GoFsCriacionais/FactoryMethod.md
+    - GoF's Estruturais: 
+      - PadroesDeProjeto/GoFsEstruturais/index.md
+      - Composite: PadroesDeProjeto/GoFsEstruturais/Composite.md
+      - Facade: PadroesDeProjeto/GoFsEstruturais/Facade.md
+    - GoF's Comportamentais: 
+      - PadroesDeProjeto/GoFsComportamentais/index.md
+      - State: PadroesDeProjeto/GoFsComportamentais/padraoState.md
+      - Observer: PadroesDeProjeto/GoFsComportamentais/padraoObserver.md
+    - Padrão do Objeto Global:  PadroesDeProjeto/ObjetoGlobal.md
+    - Iniciativas Extras: PadroesDeProjeto/IniciativasExtras.md
+    - Participações: PadroesDeProjeto/Participacoes.md
+  - Arquitetura de Software & Reutilização:
+    - ArquiteturaReutilizacao/index.md
+    - Estilos e Padrões Arquiteturais:
+      - ArquiteturaReutilizacao/EstilosPadroesArquiteturais/index.md
+      - Visão Lógica: ArquiteturaReutilizacao/EstilosPadroesArquiteturais/VisaoLogica.md
+      - Visão de Processos: ArquiteturaReutilizacao/EstilosPadroesArquiteturais/VisaoProcessos.md
+    - Reutilização de Software:
+      - ArquiteturaReutilizacao/ReutilizacaoSoftware/index.md
+      - Parte Conceitual: ArquiteturaReutilizacao/ReutilizacaoSoftware/Conceitual.md
+      - Parte de Código: ArquiteturaReutilizacao/ReutilizacaoSoftware/Codigo.md
+    - Iniciativas Extras: ArquiteturaReutilizacao/IniciativasExtras.md
+    - Participações: ArquiteturaReutilizacao/Participacoes.md
+  - Reuniões: 
+    - AtasReunioes/index.md
+    - 1ª Sprint: AtasReunioes/Sprint-1.md
+    - 3ª Sprint: AtasReunioes/Sprint-3.md
+    - 4ª Sprint: AtasReunioes/Sprint-4.md

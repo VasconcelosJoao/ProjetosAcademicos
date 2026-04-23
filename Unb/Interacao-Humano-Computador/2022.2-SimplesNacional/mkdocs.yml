@@ -1,0 +1,149 @@
+site_name: Simples Nacional
+
+repo_url: https://github.com/Interacao-Humano-Computador/2022.2-Grupo3-IHC
+
+theme:
+  name: material
+  language: pt-BR
+  font:
+    text: Roboto
+  
+  palette: 
+    - scheme: default
+      primary: yellow
+      accent: yellow
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/images/favicon.png
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+
+nav:
+  - Planejamento: 
+    - Projeto: index.md
+    - Sites Analisados: Planejamento/SitesAnalisados.md
+    - Metodologias e Processos: Planejamento/Metodologia.md
+    - Modelo de Design: Planejamento/ModeloDesign.md
+    - Ferramentas: Planejamento/Ferramentas.md
+    - Heatmap: Planejamento/Heatmap.md
+    - Roadmap: Planejamento/Roadmap.md
+    - Políticas:
+      - Código de Conduta Para Colaboradores: Planejamento/Politicas/CodigoDeConduta.md
+      - Política de Contribuição: Planejamento/Politicas/PolitcaDeContribuicao.md
+      - Política de Issue: Planejamento/Politicas/PolitcaDeIssue.md
+      - Política de Branch: Planejamento/Politicas/PolitcaDeBranch.md
+      - Política de Commit: Planejamento/Politicas/PolitcaDeCommit.md
+      - Política de Pull Request: Planejamento/Politicas/PolitcaDePR.md
+      - Política de Segurança: Planejamento/Politicas/PolitcaDeSeguranca.md
+    - Aspectos Éticos: Planejamento/AspectosEticos.md
+    - Termo de consentimento: Planejamento/ModeloTermoConsentimento.md
+  - Apresentações/Reuniões:
+    - Reunioes: Reunioes/index.md
+    - Apresentações:
+      - 1º Ponto de Controle: Reunioes/Apresentacoes/Entrega1.md
+      - 2º Ponto de Controle: Reunioes/Apresentacoes/Entrega2.md
+      - 3º Ponto de Controle: Reunioes/Apresentacoes/Entrega3.md
+      - 4º Ponto de Controle: Reunioes/Apresentacoes/Entrega4.md
+      - 5º Ponto de Controle: Reunioes/Apresentacoes/Entrega5.md
+      - 6º Ponto de Controle: Reunioes/Apresentacoes/Entrega6.md
+      - 7º Ponto de Controle: Reunioes/Apresentacoes/Entrega7.md
+      - 8º Ponto de Controle: Reunioes/Apresentacoes/Entrega8.md
+    - Reuniões:
+      - 1ª Reunião: Reunioes/Atas/Reuniao1.md
+      - 2ª Reunião: Reunioes/Atas/Reuniao2.md
+      - 3ª Reunião: Reunioes/Atas/Reuniao3.md
+      - 4ª Reunião: Reunioes/Atas/Reuniao4.md
+      - 5ª Reunião: Reunioes/Atas/Reuniao5.md
+      - 6ª Reunião: Reunioes/Atas/Reuniao6.md
+      - 7ª Reunião: Reunioes/Atas/Reuniao7.md
+  - Análise de Requisitos:
+    - Análise de Tarefas: Tarefas/Analise.md
+    - Perfil de Usúarios: Tarefas/perfilUsuario.md
+    - Personas: Tarefas/personas.md
+    - Cenários: Tarefas/Cenario.md
+    - Metas de Usabilidade: Tarefas/MetasUsabilidade.md
+    - Características da Plataforma: Tarefas/CaracteristicasPlataforma.md
+    - Princípios Gerais: Tarefas/PrincipiosGerais.md
+    - Guia de Estilo: Tarefas/GuiaDeEstilo.md
+  - Design, Avaliação e Desenvolvimento:
+    - introdução: DesignAvaliacaoDesen/index.md
+    - 1º Nível:
+      - Análise de Tarefas:
+        - Planejamento da Avaliação: DesignAvaliacaoDesen/Nivel1/AnaliseDeTarefas/PlanejamentoAvAnaliseDeTarefas.md
+        - Planejamento do Relato : DesignAvaliacaoDesen/Nivel1/AnaliseDeTarefas/PlanejamentoResAnaliseTarefas.md
+        - Relato de Resultados: DesignAvaliacaoDesen/Nivel1/AnaliseDeTarefas/RelatoResultadosAnaliseTarefas.md
+      - Storyboard:
+        - Planejamento da Avaliação: DesignAvaliacaoDesen/Nivel1/Storyboard/PlanejamentoAvStoryboard.md
+        - Planejamento do Relato : DesignAvaliacaoDesen/Nivel1/Storyboard/PlanejamentoRelatoResuStoryboard.md
+        - Relato de Resultados: DesignAvaliacaoDesen/Nivel1/Storyboard/RelatoResultadosStoryboard.md
+      - Verificação da 1ª Etapa: DesignAvaliacaoDesen/Nivel1/VerificacaoEtapa1.md
+    - 2º Nível:
+      - Protótipo de Papel:
+        - Planejamento da Avaliação: DesignAvaliacaoDesen/Nivel2/ProtPapel/PlanejamentoProtPapel.md
+        - Planejamento do Relato : DesignAvaliacaoDesen/Nivel2/ProtPapel/PlanejamentoRelatoResuProtPapel.md
+        - Relato de Resultados: DesignAvaliacaoDesen/Nivel2/ProtPapel/RelatoResultadosProtPapel.md
+    - 3º Nível:
+      - Protótipo de Alta Fidelidade:
+        - Protótipo: DesignAvaliacaoDesen/Nivel3/ProtAltaFidelidade/index.md
+        - Planejamento da Avaliação: DesignAvaliacaoDesen/Nivel3/ProtAltaFidelidade/PlanejamentoProtAlta.md
+        - Planejamento do Relato : DesignAvaliacaoDesen/Nivel3/ProtAltaFidelidade/PlanejamentoRelatoResuProtAlta.md
+        - Relato de Resultados: DesignAvaliacaoDesen/Nivel3/ProtAltaFidelidade/RelatoResProtAlta.md
+    - Testes Piloto: 
+      - Storyboard: DesignAvaliacaoDesen/TestesPiloto/TestePilotoStoryboard.md
+      - Analise de Tarefas: DesignAvaliacaoDesen/TestesPiloto/TestepilotoAnaliTarefas.md
+      - Protótipo de Papel: DesignAvaliacaoDesen/TestesPiloto/TestePilotoProtPapel.md
+      - Protótipo de Alta Fidelidade: DesignAvaliacaoDesen/TestesPiloto/TestePilotoProtAltaFidelidade.md
+    - Termos de consentimento:
+      - Avaliação da Analise de Tarefas: DesignAvaliacaoDesen/TermosConsentimento/TermoConsentimentoAnaliseTarefas.md
+      - Avaliação do Storyboard: DesignAvaliacaoDesen/TermosConsentimento/TermoConsentimentoStoryboard.md
+      - Avaliação do Protótipo de Papel: DesignAvaliacaoDesen/TermosConsentimento/TermoConsentimentoProtPapel.md
+      - Avaliação do Protótipo de Alta Fidelidade: DesignAvaliacaoDesen/TermosConsentimento/TermoConsentimentoProtAlta.md
+  - Verificação:
+    - Introdução: Verificacao/index.md
+    - Planejamento:
+      - Sites Analisados: Verificacao/Planejamento/VerificacaoSitesAnalisados.md
+      - Modelo de Design: Verificacao/Planejamento/modeloDesign.md
+      - Aspectos Éticos: Verificacao/Planejamento/aspectosEticos.md
+      - Termo de Consentimento: Verificacao/Planejamento/termoConsentimento.md
+    - Análise de Requisitos:
+      - Princípios Gerais: Verificacao/Tarefas/principiosGerais.md
+      - Análise de Tarefas: Verificacao/Tarefas/AnaliseDeTarefas.md
+      - Perfil de Usúario: Verificacao/Tarefas/VerificacaoPerfilUsuario.md
+      - Cenários: Verificacao/Tarefas/VerificacaoCenarios.md
+      - Metas de Usabilidade: Verificacao/Tarefas/verificacaoMetasDeUsabilidade.md
+      - Características da Plataforma: Verificacao/Tarefas/VerificacaoCaracteristicasPlataforma.md
+      - Guia de Estilo: Verificacao/Tarefas/verificacaoGuiaDeEstilo.md
+    - Design, Avaliação e Desenvolvimento:
+      - 1º Nível:
+        - Análise de Tarefas:
+          - Planejamento da Avaliação: Verificacao/DesignAvaliacaoDesen/Nivel1/AnalisedeTarefa/VerificacaoPlanAval.md
+          - Planejamento do Relato : Verificacao/DesignAvaliacaoDesen/Nivel1/AnalisedeTarefa/VerificacaoPlanejamentoRelato.md
+          - Relato de Resultados: Verificacao/DesignAvaliacaoDesen/Nivel1/AnalisedeTarefa/VerificacaoRelato.md
+        - Storyboard:
+          - Planejamento da Avaliação: Verificacao/DesignAvaliacaoDesen/Nivel1/Storyboard/VerficacaoPlanejamentoAval.md
+          - Planejamento do Relato : Verificacao/DesignAvaliacaoDesen/Nivel1/Storyboard/VerificacaoPlanejamentoRelato.md
+          - Relato de Resultados: Verificacao/DesignAvaliacaoDesen/Nivel1/Storyboard/VerificacaoRelato.md
+      - 2º Nível: 
+        - Protótipo de Papel:
+          - Planejamento da Avaliação: Verificacao/DesignAvaliacaoDesen/Nivel2/VerficacaoPlanejamentoAval.md
+          - Planejamento do Relato : Verificacao/DesignAvaliacaoDesen/Nivel2/VerificacaoPlanejamentoRelato.md
+          - Relato de Resultados: Verificacao/DesignAvaliacaoDesen/Nivel2/VerificacaoRelato.md
+      - 3º Nível:
+        - Protótipo de Alta Fidelidade:
+          - Planejamento da Avalição: Verificacao/DesignAvaliacaoDesen/Nivel3/VerificacaoPlanejamentoAvaliacao.md
+          - Planejamento do Relato: Verificacao/DesignAvaliacaoDesen/Nivel3/VerificacaoPlanejamentoRelato.md
+  - Post Mortem: relatorioFinal/index.md

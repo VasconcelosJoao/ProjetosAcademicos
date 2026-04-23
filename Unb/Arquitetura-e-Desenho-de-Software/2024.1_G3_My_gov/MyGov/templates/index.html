@@ -1,0 +1,168 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'images/favicon.png' %}">
+    <title>GOV.BR</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.3.1/dist/core.min.css">
+<style>
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  .warning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  .button {
+    margin-top: 5px;
+    border: none;
+    border-radius: 100em;
+    min-width: 100px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #1351B4;
+    cursor: pointer;
+  }
+  .button.hollow {
+    color: #1351B4;
+    border: 1px solid #1351B4;
+    background-color: #fff;
+  }
+  .services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px #00000033;
+    background-color: #fff;
+    width: 250px;
+    height: 100px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .card-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: #1351B4;
+  }
+  .services-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .hr-divider {
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+    <header class="br-header" id="header" data-sticky="data-sticky">
+        <div class="container-lg">
+            <div class="header-top">
+                <div class="header-logo">
+                    <a href="{% url 'index' %}">
+                        <img src="{% static 'images/logo-gov.png' %}" alt="Governo Federal" class="img-fluid">
+                    </a>
+                </div>
+                <div class="header-actions">
+                    <div class="header-links dropdown">
+                        <button class="br-button circle small" type="button" data-toggle="dropdown" aria-label="Acesso Rápido">
+                            <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="br-list">
+                            <a class="br-item" href="https://www.gov.br/pt-br/orgaos-do-governo">Órgãos do Governo</a>
+                            <a class="br-item" href="https://www.gov.br/acessoainformacao/pt-br">Acesso à Informação</a>
+                            <a class="br-item" href="http://www4.planalto.gov.br/legislacao">Legislação</a>
+                            <a class="br-item" href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital">Acessibilidade</a>
+                        </div>
+                    </div>
+                    <div class="header-functions">
+                        <aside id="sso-status-bar" class="sso-status-bar closed-menu">
+                            <section class="status-indicator">
+                                {% if user.is_authenticated %}
+                                    <button type="button" class="signed-in br-button secondary" onclick="window.location.href='{% url 'logout' %}'">
+                                        <span class="sso-status-bar-signed-in-icon"></span>
+                                        Sair
+                                    </button>
+                                {% else %}
+                                    <button type="button" class="signed-out br-button secondary" onclick="window.location.href='{% url 'login' %}'">
+                                        <span class="sso-status-bar-signed-out-icon"></span>
+                                        Entrar com o gov.br
+                                    </button>
+                                {% endif %}
+                            </section>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="warning">
+            {% if user.is_authenticated %}
+              <div class="services-header">
+                  <div class="hr-divider"></div>
+                  <h3 style="min-width: fit-content; color: gray;">SERVIÇO ONLINE</h3>
+                  <div class="hr-divider"></div>
+              </div>
+
+              <div class="services-cards">
+                  <a href="{% url 'retrovenda' %}" class="card">
+                      <h3 class="card-title">Baixa de Retrovenda</h3>
+                  </a>
+                  <a class="card">
+                      <h3 class="card-title">Emissão de Boletos</h3>
+                  </a>
+                  <a class="card">
+                      <h3 class="card-title">Simulador de Valores</h3>
+                  </a>
+              </div>
+              <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            {% else %}
+
+            <img src="{% static 'images/servicos.png' %}" alt="Governo Federal" class="img-fluid">
+            <img src="{% static 'images/servicos2.png' %}" alt="Governo Federal" class="img-fluid">
+            <img src="{% static 'images/servicos3.png' %}" alt="Governo Federal" class="img-fluid">
+            <img src="{% static 'images/servicos4.png' %}" alt="Governo Federal" class="img-fluid">
+            
+
+
+            {% endif %}
+        </div>
+    </main>
+
+    <footer class="br-footer">
+        <div class="container-lg">
+            <div class="logo"><img src="{% static 'images/logo-gov-F.png' %}" alt="Governo Federal"></div>
+            <div class="br-list horizontal" data-toggle="data-toggle" data-unique="data-unique">
+            </div>
+            <div class="d-none d-sm-block">
+                <div class="row align-items-end justify-content-between py-5">
+                    <div class="col">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@govbr-ds/core@3.3.1/dist/core.min.js"></script>
+</body>
+</html>
