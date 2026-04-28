@@ -1,0 +1,72 @@
+1. Qual é o objetivo do teste caixa-preta?
+a) Identificar o subconjunto mais efetivo de casos de teste dado uma funcionalidade específica. 
+b) Detectar defeitos de entrada e saída de dados de forma sistemática.
+c) Detectar falhas a partir da execução de todos os fluxos do programa.
+d) Identificar situações em que o programa não se comporta conforme as especificações.
+
+2. Por que é importante atribuir um número único para cada classe de equivalência identificada? 
+a) Para garantir a cobertura de todas as classes de equivalência ao elaborar os casos de teste. 
+b) Para assegurar que uma mesma classe não seja atendida por dois casos de teste.
+c) Para garantir que uma quantidade mínima de casos de teste seja elaborada.
+d) Para assegurar que seja elaborado um caso de uso único para cada classe de equivalência.
+
+3. Aplicando o critério Particionamento de Equivalência (Equivalence Partitioning) para a condição de entrada de intervalo de valores "a quantidade de itens deve ser entre 1 e 100", quais classes de equivalência podem ser identificadas?
+a) 3 classes: 1 <= quantidade <= 100; quantidade < 1; quantidade > 100
+b) 4 classes: quantidade < 1; quantidade >=1; quantidade <= 100; quantidade > 100
+c) 2 classes: classe válida e classe inválida
+d) 2 classes: 1 <= quantidade <= 100; classe inválida
+
+4. O que é INCORRETO afirmar sobre o critério de Análise de Valor Limite (Boundary Value Analysis)?
+a) Condições limites são as situação diretamente sobre, acima ou abaixo das bordas das classes de equivalência.
+b) O particionamento de equivalência não deve ser utilizado em conjunto com a análise de valor limite.
+c) Casos de teste são produzidos também para as classes de equivalência de saída.
+d) Os valores limites são utilizados para representar as classes de equivalência.
+
+5. Aplicando o critério Análise de Valor Limite para a condição de entrada de intervalo de valores "a quantidade de itens deve ser entre 1 e 100", quais casos de teste podem ser identificados? 
+a) 0; 1; 100; 101
+b) 1; 2; 99; 100
+c) -1; 0; 100; 101
+d) 1; 100
+
+6. É INCORRETO afirmar sobre o Grafo de Causa-Efeito (Cause Effect-Graphing)
+a) As causas e os efeitos são identificados a partir da especificação.
+b) As causas são as condições de entrada específicas ou classes de equivalência.
+﻿c) Os efeitos são as condições de saída ou transformações do sistema.
+d) Efeitos são ligados às causas de acordo com a lógica implementada no código.
+
+7. Qual é a ideia por trás do critério de geração de casos de teste chamado de "Error Guessing"? 
+a) Explora certos tipos prováveis de defeitos, de forma a produzir casos de teste para expor esses defeitos.
+b) Propõe o uso da intuição e experiência do desenvolvedor para priorizar os casos de testes gerados por outros critérios.
+c) Faz uso de técnicas de Inteligência Artificial para determinar as áreas críticas do programa que precisam de mais casos de teste.
+d) Utiliza a identificação de defeitos anteriores para prever novos defeitos e a partir disso gerar os casos de teste.
+
+8. Qual a melhor definição para o propósito dos testes de alto nível (high order testing)? 
+a) Testar o sistema por completo, repetindo em alto nível os testes dos níveis mais baixos. 
+b) Testar o sistema a partir da visão do usuário, de forma a encontrar defeitos de interface. 
+c) Identificar uma classe distinta de defeitos a partir de um tipo distinto de documentação. 
+d) Identificar defeitos em alto nível inseridos após os testes de níveis mais baixos.
+
+9. Qual é o propósito do teste funcional (function test)?
+a) Demonstrar que a funcionalidade está de acordo com a sua especificação.
+b) Revelar inconsistências da cobertura lógica do programa realizada previamente por métodos caixa-branca.
+c) Demonstrar que as funcionalidades foram integradas corretamente e não apresentam falhas. 
+d) Revelar falhas e expôr inconsistências com a especificação da funcionalidade.
+
+10. Que tipo de teste implica em verificar o software em diferentes dispositivos e sistemas operaci nais?
+a) Teste de configuração
+b) Teste de compatibilidade
+c) Teste de instalação
+d) Teste de confiabilidade
+
+11. Para que serve o teste de performance?
+a) Assegurar que o software é capaz de lidar com grandes volumes de acessos simultâneos 
+b) Determinar se o software atende aos requisitos de tempo de resposta e taxa de througput
+c) Verificar que o software atende as especificações de processamento de grandes volume de dados.
+d) Garantir que o software tenha desempenho equivalente em diversas versões de hardware
+
+
+12. Qual alternativa representa o melhor método para conclusão de testes?
+a) Exame da curva de erros por unidade de tempo.
+b) Identificação de uma quantidade estimada de erros.
+c) Execução de todos os testes derivados a partir de um ou mais métodos estabelecidos 
+d) A combinação dos critérios acima.
